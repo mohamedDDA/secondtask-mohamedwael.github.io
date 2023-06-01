@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Wael Task</title>
+    <link rel="icon" href="images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<header>
+    <nav class="first-nav">
+        <div class="container">
+            <div class="search">
+                <input type="search" id="search" placeholder="Search">
+            </div>
+            <div class="name">
+                Mohamed Wael
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </nav>
+    <nav class="second-nav">
+        <div class="container">
+            <ul>
+                <li class="active"><a href="index.html">Home</a> <i class="fa-solid fa-chevron-down"></i></li>
+                <li><a href="about.html">About</a><i class="fa-solid fa-chevron-down"></i></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a href="catalogue.html">catalogue</a></li>
+                <li><a href="arrivals.html">new arrivals</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="third-nav">
+        <div class="container"> <span>Home</span> <span>/</span> <span>Cart</span> <span>/</span> <span
+                class="active">About</span></div>
+    </div>
+
+</header>
+
+<div class="head">
+    <div class="container">
+        Reutrning Customers ? <a href="">Click here</a> to login
+    </div>
+</div>
+
+<section class="checkout">
+    <div class="container">
+        <div class="billing">
+            <h2>Billing Details</h2>
+            <form id="billing-form">
+                <div>
+                    <label for="country">Country</label>
+                    <input type="text" id="country" name="country" required>
+                </div>
+                <div class="double">
+                    <div>
+                        <label for="name">First Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                </div>
+                <div>
+                    <div class="double">
+                        <label for="company">Company Name</label>
+                        <input type="text" id="company" name="company" required>
+                        <label for="address">Address</label>
+                        <input type="text" id="address" name="address" required>
+                    </div>
+
+                </div>
+                <div class="double">
+                    <div>
+                        <label for="state">State / Country</label>
+                        <input type="text" id="state" name="state" required>
+                    </div>
+                    <div>
+                        <label for="zip">Postal / Zip Code</label>
+                        <input type="text" id="zip" name="zip" required>
+                    </div>
+                </div>
+                <div class="double">
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" name="phone" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+
+                <div class="create">
+                    <ul>
+                        <li><input type="checkbox" name="" id=""> Create an account ?</li>
+                        <li><input type="checkbox" name="" id=""> Ship to different address ?</li>
+                    </ul>
+                </div>
+
+                <div class="notes">
+                    <h5>Order Notes</h5>
+                    <textarea name="" id="" placeholder="Write your notes here"></textarea>
+                </div>
+            </form>
+
+        </div>
+        <div class="pay">
+            <div class="coupon">
+                <h4>Coupon</h4>
+                <div class="enter">
+                    <p>Enter Your coupon code if you have one</p>
+                    <div class="apply">
+                        <input type="text" name="" placeholder="Coupun code" id="">
+                        <button>Apply Coupon</button>
+                    </div>
+                </div>
+            </div>
+            <div class="order">
+                <h3>
+                    Your Order
+                </h3>
+                <div class="order-details">
+                    <ul>
+                        <li class="active">Product<span>Total</span></li>
+                        <li>Top Up T-shirt x 1<span>$350</span></li>
+                        <li>Polo Shirt x 1<span>$350</span></li>
+                        <li>Cart Subtotal<span>$350</span></li>
+                        <li class="active">Order Total<span>$350</span></li>
+                    </ul>
+
+                    <div class="payments">
+                        <div>Direct Bank Transfer</div>
+                        <div>Cheque Payment</div>
+                        <div>Paypal</div>
+                    </div>
+
+                    <a href="complete.html"><button>Place Order</button></a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="navigation">
+            <h3>Navigations</h3>
+            <div class="lists">
+                <ul>
+                    <li><a href="">Sell Online</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Shopping Cart</a></li>
+                    <li><a href="">Store Builder</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Mobile commerce</a></li>
+                    <li><a href="">Dropshipping</a></li>
+                    <li><a href="">Website develoment</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Pint of sale</a></li>
+                    <li><a href="">Harware</a></li>
+                    <li><a href="">Software</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="promo">
+            <h3>Promo</h3>
+            <div class="image">
+                <img src="images/shoe.png" alt="">
+            </div>
+            <div class="text">
+                <div>Finding Your Perfect Shoes</div>
+                <div>Promo from nuary 15-25,2019</div>
+            </div>
+        </div>
+        <div class="contact">
+            <h3>Contact info</h3>
+            <ul>
+                <li><i class="fa-solid fa-location-dot"></i><a href="">134b . Mubark city, Asyut, Egypt</a></li>
+                <li><i class="fa-solid fa-phone"></i><a href="">+2019329232</a></li>
+                <li><i class="fa-solid fa-envelope"></i><a href="">mohammed.web.dev1@gmail.com</a></li>
+            </ul>
+            <div class="sub">
+                <h3>Subscribe</h3>
+                <input type="email" placeholder="Email" name="" id="email">
+                <button type="submit">SEND</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="credits">
+        Copyright &copy; All rights reserverd | This template is made with <i class="fa-solid fa-heart"></i> by
+        <span>Mohamed Wael</span>
+    </div>
+</footer>
